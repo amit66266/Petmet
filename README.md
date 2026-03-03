@@ -54,7 +54,7 @@ Built using **JSP** and **MySQL**, it allows shelters to manage pet listings and
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/FighterX777/petmate.git
+   git clone https://github.com/amit66266/petmate.git
    ```
 
 2. **Import into your IDE**
