@@ -1,0 +1,40 @@
+/* Gradient for the right panel */
+.gradient-custom-2 {
+    background: #fccb90;
+    background: -webkit-linear-gradient(to right,
+  #4fc3f7 0%,
+  #64b5f6 30%,
+  #1976d2 65%,
+  #0d47a1 100%);
+background: linear-gradient(to right,
+  #4fc3f7 0%,
+  #64b5f6 30%,
+  #1976d2 65%,
+  #0d47a1 100%);
+}
+
+/* Ensure full height and white left background */
+.gradient-form {
+    min-height: 100vh;
+    background-color: #ffffff !important;
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: 0.3rem;
+        border-bottom-right-radius: 0.3rem;
+    }
+}
+
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
